@@ -7,7 +7,8 @@ import os
 
 PKG_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 # PRF_FILE_DIRECTORY = PKG_DIRECTORY + '/data/mastprf_fitsfiles/'
-PRF_FILE_DIRECTORY = '/home/jovyan/tom_data/mastprf_fitsfiles/'
+# PRF_FILE_DIRECTORY = '/home/jovyan/tom_data/mastprf_fitsfiles/'
+PRF_FILE_DIRECTORY = '/home/barclay-astro/tom-testing/mastprf_fitsfiles/'
 
 
 class TESS_PRF_Model(object):
